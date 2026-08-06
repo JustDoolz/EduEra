@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduEra — Study in Turkey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand">Edu<span>Era</span></a>
+    <nav class="nav-links">
+      <a href="fields.html"><span data-en>Fields</span><span data-ar>التخصصات</span></a>
+      <a href="process.html"><span data-en>Process</span><span data-ar>خطوات التقديم</span></a>
+      <a href="why-turkey.html"><span data-en>Why Turkey</span><span data-ar>لماذا تركيا</span></a>
+      <a href="contact.html"><span data-en>Contact</span><span data-ar>تواصل معنا</span></a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+        <button id="btn-ar" onclick="setLang('ar')">AR</button>
+      </div>
+      <a href="contact.html" class="cta"><span data-en>Book consultation</span><span data-ar>احجز استشارة</span></a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap" style="display:grid; grid-template-columns:1.05fr 0.95fr; gap:48px; align-items:center;">
+    <div>
+      <div class="eyebrow"><span data-en>Cairo → Turkish universities</span><span data-ar>من القاهرة إلى الجامعات التركية</span></div>
+      <h1 class="headline">
+        <span data-en>Your seat in a Turkish <em>university</em> starts here</span>
+        <span data-ar>مقعدك في <em>جامعة تركية</em> يبدأ من هنا</span>
+      </h1>
+      <p class="sub">
+        <span data-en>EduEra guides Egyptian high school graduates through every step of applying to Engineering, Medicine, Computer Science and AI programs in Turkey — from choosing a university to landing on campus.</span>
+        <span data-ar>ترشدك EduEra خطوة بخطوة، من اختيار الجامعة المناسبة وحتى وصولك إلى الحرم الجامعي، للتقديم على برامج الهندسة والطب وعلوم الحاسب والذكاء الاصطناعي في تركيا.</span>
+      </p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="cta"><span data-en>Start your application</span><span data-ar>ابدأ طلبك</span></a>
+        <a href="process.html" class="cta ghost"><span data-en>See the process</span><span data-ar>شاهد الخطوات</span></a>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><b>500+</b><span data-en>Students placed</span><span data-ar>طالب تم قبولهم</span></div>
+        <div class="stat"><b>30+</b><span data-en>Partner universities</span><span data-ar>جامعة شريكة</span></div>
+        <div class="stat"><b>98%</b><span data-en>Visa success rate</span><span data-ar>نسبة نجاح التأشيرة</span></div>
+      </div>
+    </div>
+    <div class="route-box">
+      <svg viewBox="0 0 480 460" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 90 380 Q 240 60 380 90" fill="none" stroke="#C9A24B" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+        <circle cx="90" cy="380" r="6" fill="#A63D31"/>
+        <circle cx="90" cy="380" r="11" fill="none" stroke="#A63D31" stroke-width="1" opacity="0.5"/>
+        <text x="90" y="410" text-anchor="middle" class="route-city">Cairo</text>
+        <text x="90" y="428" text-anchor="middle" class="route-label">EGYPT</text>
+
+        <circle cx="380" cy="90" r="6" fill="#C9A24B"/>
+        <circle cx="380" cy="90" r="11" fill="none" stroke="#C9A24B" stroke-width="1" opacity="0.5"/>
+        <text x="380" y="70" text-anchor="middle" class="route-city">Istanbul</text>
+        <text x="380" y="118" text-anchor="middle" class="route-label">TÜRKİYE</text>
+
+        <g transform="translate(210,180)">
+          <circle r="26" fill="#16283F" stroke="#C9A24B" stroke-width="1"/>
+          <text x="0" y="-4" text-anchor="middle" class="route-label" style="font-size:9px;">STEP 01</text>
+          <text x="0" y="10" text-anchor="middle" fill="#EDE8DC" font-family="IBM Plex Mono" font-size="9">APPLY</text>
+        </g>
+        <g transform="translate(300,140)">
+          <circle r="26" fill="#16283F" stroke="#C9A24B" stroke-width="1"/>
+          <text x="0" y="-4" text-anchor="middle" class="route-label" style="font-size:9px;">STEP 02</text>
+          <text x="0" y="10" text-anchor="middle" fill="#EDE8DC" font-family="IBM Plex Mono" font-size="9">ACCEPT</text>
+        </g>
+        <g transform="translate(350,105)">
+          <circle r="8" fill="#0A1420" stroke="#C9A24B" stroke-width="1"/>
+        </g>
+        <g transform="translate(150,260)">
+          <circle r="26" fill="#16283F" stroke="#C9A24B" stroke-width="1"/>
+          <text x="0" y="-4" text-anchor="middle" class="route-label" style="font-size:9px;">STEP 00</text>
+          <text x="0" y="10" text-anchor="middle" fill="#EDE8DC" font-family="IBM Plex Mono" font-size="9">CONSULT</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="fields tight">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><span data-en>Fields we place students in</span><span data-ar>التخصصات التي نساعدك في الالتحاق بها</span></h2>
+      <p><span data-en>Engineering, Medicine, Computer Science and AI — with partner faculties across Turkey's top-ranked universities.</span><span data-ar>الهندسة والطب وعلوم الحاسب والذكاء الاصطناعي، في كليات شريكة بأفضل الجامعات التركية.</span></p>
+    </div>
+  </div>
+  <div class="field-grid">
+    <div class="field-card">
+      <svg class="field-icon" viewBox="0 0 40 40" fill="none"><path d="M20 4 L35 12 L35 28 L20 36 L5 28 L5 12 Z" stroke="#C9A24B" stroke-width="1.4"/><circle cx="20" cy="20" r="5" stroke="#C9A24B" stroke-width="1.4"/></svg>
+      <h3><span data-en>Engineering</span><span data-ar>الهندسة</span></h3>
+      <p><span data-en>Civil, mechanical, electrical and industrial programs.</span><span data-ar>هندسة مدنية وميكانيكية وكهربائية وصناعية.</span></p>
+    </div>
+    <div class="field-card">
+      <svg class="field-icon" viewBox="0 0 40 40" fill="none"><path d="M20 5 V17 M20 17 L12 33 H28 L20 17Z" stroke="#C9A24B" stroke-width="1.4" stroke-linejoin="round"/><circle cx="20" cy="10" r="3" stroke="#C9A24B" stroke-width="1.4"/></svg>
+      <h3><span data-en>Medicine</span><span data-ar>الطب</span></h3>
+      <p><span data-en>MD and dentistry, internationally accredited.</span><span data-ar>طب بشري وطب أسنان بمعايير دولية.</span></p>
+    </div>
+    <div class="field-card">
+      <svg class="field-icon" viewBox="0 0 40 40" fill="none"><rect x="6" y="8" width="28" height="18" rx="2" stroke="#C9A24B" stroke-width="1.4"/><path d="M14 32h12 M20 26v6" stroke="#C9A24B" stroke-width="1.4"/></svg>
+      <h3><span data-en>Computer Science</span><span data-ar>علوم الحاسب</span></h3>
+      <p><span data-en>Software engineering, data science, information systems.</span><span data-ar>هندسة برمجيات وعلوم بيانات ونظم معلومات.</span></p>
+    </div>
+    <div class="field-card">
+      <svg class="field-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="4" stroke="#C9A24B" stroke-width="1.4"/><circle cx="8" cy="12" r="2.5" stroke="#C9A24B" stroke-width="1.4"/><circle cx="32" cy="12" r="2.5" stroke="#C9A24B" stroke-width="1.4"/><circle cx="8" cy="28" r="2.5" stroke="#C9A24B" stroke-width="1.4"/><circle cx="32" cy="28" r="2.5" stroke="#C9A24B" stroke-width="1.4"/><path d="M20 20 L8 12 M20 20 L32 12 M20 20 L8 28 M20 20 L32 28" stroke="#C9A24B" stroke-width="1"/></svg>
+      <h3><span data-en>Artificial Intelligence</span><span data-ar>الذكاء الاصطناعي</span></h3>
+      <p><span data-en>Dedicated AI and machine learning tracks.</span><span data-ar>برامج متخصصة في الذكاء الاصطناعي والتعلم الآلي.</span></p>
+    </div>
+  </div>
+  <div class="wrap" style="padding-top:28px;">
+    <a href="fields.html" class="cta ghost"><span data-en>View all fields</span><span data-ar>عرض كل التخصصات</span></a>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><span data-en>Five stages, start to finish</span><span data-ar>خمس مراحل من البداية للنهاية</span></h2>
+      <p><span data-en>From your first call with us to your first week on campus.</span><span data-ar>من أول مكالمة معنا حتى أول أسبوع لك في الجامعة.</span></p>
+    </div>
+    <div class="process-list">
+      <div class="p-step">
+        <div class="p-num">01</div>
+        <div><h3><span data-en>Free consultation</span><span data-ar>استشارة مجانية</span></h3>
+        <p><span data-en>We review your grades, budget and preferred field to shortlist realistic universities.</span><span data-ar>نراجع درجاتك وميزانيتك والتخصص المفضل لديك لاختيار جامعات مناسبة.</span></p></div>
+      </div>
+      <div class="p-step">
+        <div class="p-num">02</div>
+        <div><h3><span data-en>Documents and applications</span><span data-ar>المستندات والتقديم</span></h3>
+        <p><span data-en>We prepare your paperwork and submit applications to your shortlisted universities.</span><span data-ar>نجهّز مستنداتك ونقدّم طلباتك للجامعات المختارة.</span></p></div>
+      </div>
+      <div class="p-step">
+        <div class="p-num">03</div>
+        <div><h3><span data-en>Acceptance, visa and travel</span><span data-ar>القبول والتأشيرة والسفر</span></h3>
+        <p><span data-en>Once accepted, we handle your visa file, housing and airport pickup.</span><span data-ar>بعد القبول، نتولى ملف التأشيرة والسكن واستقبالك من المطار.</span></p></div>
+      </div>
+    </div>
+    <div style="padding-top:28px;">
+      <a href="process.html" class="cta ghost"><span data-en>See the full process</span><span data-ar>عرض كل الخطوات</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><span data-en>Why Turkey, for Egyptian students</span><span data-ar>لماذا تركيا بالنسبة للطلاب المصريين</span></h2>
+      <p><span data-en>Close, affordable, and increasingly recognized across the region.</span><span data-ar>قريبة، بتكلفة معقولة، ومعترف بها بشكل متزايد في المنطقة.</span></p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <b>2 hrs</b>
+        <span data-en>Direct flight time from Cairo to Istanbul</span>
+        <span data-ar>مدة الطيران المباشر من القاهرة إلى إسطنبول</span>
+      </div>
+      <div class="why-card">
+        <b>$2–5k</b>
+        <span data-en>Typical yearly tuition for English-taught programs</span>
+        <span data-ar>متوسط الرسوم السنوية للبرامج بالإنجليزية</span>
+      </div>
+      <div class="why-card">
+        <b>No IELTS*</b>
+        <span data-en>Many universities accept a university-run English exam instead</span>
+        <span data-ar>العديد من الجامعات تقبل اختبار لغة داخلي بدلاً من الأيلتس</span>
+      </div>
+    </div>
+    <div style="padding-top:32px;">
+      <a href="why-turkey.html" class="cta ghost" style="border-color:rgba(10,20,32,0.25); color:var(--ink-900);"><span data-en>Read more reasons</span><span data-ar>اقرأ المزيد من الأسباب</span></a>
+    </div>
+  </div>
+</section>
+
+<div class="testimonial">
+  <blockquote>
+    <span data-en>"EduEra handled my paperwork end to end. Three months after our first call I was walking into orientation week in Istanbul."</span>
+    <span data-ar>"تولت EduEra كل أوراقي من الألف للياء. بعد ثلاثة أشهر من أول مكالمة كنت في أسبوع التعارف بإسطنبول."</span>
+  </blockquote>
+  <cite><span data-en>— Mariam K., Computer Science, Class of 2025</span><span data-ar>— مريم ك.، علوم حاسب، دفعة 2025</span></cite>
+</div>
+
+<section class="cta-banner">
+  <div class="wrap">
+    <h2><span data-en>Ready to see your options?</span><span data-ar>جاهز لمعرفة خياراتك؟</span></h2>
+    <p><span data-en>Tell us your grades and field of interest — we'll reply within one business day.</span><span data-ar>أخبرنا بدرجاتك والتخصص الذي تريده، وسنرد خلال يوم عمل واحد.</span></p>
+    <a href="contact.html" class="cta"><span data-en>Talk to a counselor</span><span data-ar>تحدث مع مستشار</span></a>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div>© 2026 EduEra. <span data-en>All rights reserved.</span><span data-ar>جميع الحقوق محفوظة.</span></div>
+  <div><span data-en>Cairo, Egypt</span><span data-ar>القاهرة، مصر</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

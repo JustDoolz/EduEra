@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — EduEra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand">Edu<span>Era</span></a>
+    <nav class="nav-links">
+      <a href="fields.html"><span data-en>Fields</span><span data-ar>التخصصات</span></a>
+      <a href="process.html"><span data-en>Process</span><span data-ar>خطوات التقديم</span></a>
+      <a href="why-turkey.html"><span data-en>Why Turkey</span><span data-ar>لماذا تركيا</span></a>
+      <a href="contact.html" class="current"><span data-en>Contact</span><span data-ar>تواصل معنا</span></a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+        <button id="btn-ar" onclick="setLang('ar')">AR</button>
+      </div>
+      <a href="contact.html" class="cta"><span data-en>Book consultation</span><span data-ar>احجز استشارة</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero wrap">
+  <div class="eyebrow"><span data-en>Get in touch</span><span data-ar>تواصل معنا</span></div>
+  <h1><span data-en>Talk to a counselor</span><span data-ar>تحدث مع مستشار تعليمي</span></h1>
+  <p><span data-en>Tell us your grades and field of interest. We'll reply within one business day with a shortlist of universities that fit.</span><span data-ar>أخبرنا بدرجاتك والتخصص الذي تريده، وسنرد خلال يوم عمل واحد بقائمة جامعات مناسبة لك.</span></p>
+</div>
+
+<section class="contact" style="border-top:none;">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <h2><span data-en>Reach us directly</span><span data-ar>تواصل معنا مباشرة</span></h2>
+      <p><span data-en>Prefer to talk now? Call or message us on WhatsApp — our counselors reply in Arabic and English.</span><span data-ar>تفضل التحدث الآن؟ اتصل بنا أو راسلنا على واتساب — يرد مستشارونا بالعربية والإنجليزية.</span></p>
+      <div class="info-row"><span data-en>Cairo office</span><span data-ar>مكتب القاهرة</span>&nbsp;— Nasr City, Cairo, Egypt</div>
+      <div class="info-row"><span data-en>Phone / WhatsApp</span><span data-ar>هاتف / واتساب</span>&nbsp;— +20 10 000 0000</div>
+      <div class="info-row"><span data-en>Email</span><span data-ar>البريد الإلكتروني</span>&nbsp;— hello@eduera.com</div>
+      <div class="info-row"><span data-en>Office hours</span><span data-ar>ساعات العمل</span>&nbsp;— <span data-en>Sun–Thu, 10am–6pm</span><span data-ar>الأحد–الخميس، 10ص–6م</span></div>
+    </div>
+    <form onsubmit="return false;">
+      <input type="text" data-en-placeholder="Full name" data-ar-placeholder="الاسم بالكامل" placeholder="Full name">
+      <input type="tel" data-en-placeholder="Phone / WhatsApp number" data-ar-placeholder="رقم الهاتف / واتساب" placeholder="Phone / WhatsApp number">
+      <select>
+        <option data-en="Field of interest" data-ar="التخصص المطلوب">Field of interest</option>
+        <option>Engineering</option>
+        <option>Medicine</option>
+        <option>Computer Science</option>
+        <option>Artificial Intelligence</option>
+      </select>
+      <textarea data-en-placeholder="Your Thanaweya Amma grade, and any questions" data-ar-placeholder="مجموع الثانوية العامة وأي استفسارات" placeholder="Your Thanaweya Amma grade, and any questions"></textarea>
+      <button class="cta"><span data-en>Send message</span><span data-ar>إرسال الرسالة</span></button>
+    </form>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head">
+      <h2><span data-en>Common questions</span><span data-ar>أسئلة شائعة</span></h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item">
+        <h3><span data-en>Is the consultation really free?</span><span data-ar>هل الاستشارة مجانية فعلًا؟</span></h3>
+        <p><span data-en>Yes. The first consultation, university shortlist and eligibility check cost nothing — you only pay once you decide to proceed with an application.</span><span data-ar>نعم. الاستشارة الأولى وقائمة الجامعات المقترحة وفحص الأهلية مجانية بالكامل — تدفع فقط عند قرارك بالمتابعة في التقديم.</span></p>
+      </div>
+      <div class="faq-item">
+        <h3><span data-en>What grade do I need in Thanaweya Amma?</span><span data-ar>ما هو المجموع المطلوب في الثانوية العامة؟</span></h3>
+        <p><span data-en>It depends on the field and university — Medicine typically needs a higher average than Engineering or Computer Science. We'll tell you exactly where you stand in your consultation.</span><span data-ar>يختلف حسب التخصص والجامعة — الطب يحتاج غالبًا مجموعًا أعلى من الهندسة أو علوم الحاسب. سنوضح لك موقفك بالتحديد في الاستشارة.</span></p>
+      </div>
+      <div class="faq-item">
+        <h3><span data-en>Do I need to know Turkish?</span><span data-ar>هل يجب أن أتقن اللغة التركية؟</span></h3>
+        <p><span data-en>No — most programs we place students into are taught fully in English. Turkish is useful for daily life but not required for your coursework.</span><span data-ar>لا — أغلب البرامج التي نرشح لها الطلاب تُدرّس بالكامل بالإنجليزية. اللغة التركية مفيدة للحياة اليومية وليست شرطًا للدراسة.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div>© 2026 EduEra. <span data-en>All rights reserved.</span><span data-ar>جميع الحقوق محفوظة.</span></div>
+  <div><span data-en>Cairo, Egypt</span><span data-ar>القاهرة، مصر</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
